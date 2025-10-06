@@ -9,7 +9,7 @@ public class Args {
         Args a = new Args();
         System.out.println(a);
         Args b = a.change(a.value);
-        System.out.println(a);
+        System.out.println(b);
     }
 }
 

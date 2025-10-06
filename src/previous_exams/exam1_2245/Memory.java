@@ -1,4 +1,4 @@
-package exam1_2245;
+package previous_exams.exam1_2245;
 
 class MemoryParent {
     int o;
@@ -10,9 +10,7 @@ public class Memory extends MemoryParent {
 
     int o;
     Memory() { Memory x = new Memory(); x.o = 1;}
-    Memory(int o) {
-        super(o);
-    }
+    Memory(int o) { super(o); }
     Memory(Memory o) {
         this.o = o.o;
     }
