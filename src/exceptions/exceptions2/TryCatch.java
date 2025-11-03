@@ -12,7 +12,7 @@ public class TryCatch {
 			int x = 1/0;
 			return i;		
 		} catch (Exception e) {
-//			e.printStackTrace();
+			e.printStackTrace();
 			System.out.println(1);
 		} finally {
 			int x = 1/0;

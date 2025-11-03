@@ -16,7 +16,7 @@ class Excep6 {
                 System.out.println(e);
             }
             System.out.println("other statement");
-        } catch (Exception e) {
+        } catch (ArithmeticException e) {
             System.out.println("handled");
         }
         System.out.println("normal flow..");

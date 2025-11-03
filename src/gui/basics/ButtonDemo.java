@@ -16,10 +16,10 @@ public class ButtonDemo extends Application {
 
     @Override
     public void start(Stage stage) throws Exception {
-        Button button = new Button("DO NOT CLICK HERE");
+        Button button = new Button("this is not a button");
         Scene scene = new Scene(button);
         stage.setScene(scene);
-        stage.setTitle("Window title comes here");
+        stage.setTitle("some weird title");
         stage.setWidth(WIDTH);
         stage.setResizable(true);
         stage.show();

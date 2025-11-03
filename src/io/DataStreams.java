@@ -2,7 +2,6 @@ package io;
 
 
 import java.io.*;
-
 public class DataStreams {
     public static void main(String args[]) {
 //        try (DataOutputStream out = new DataOutputStream(new FileOutputStream("input2.txt"));
@@ -21,10 +20,10 @@ public class DataStreams {
 //            System.out.println(in.readDouble());
 //            System.out.println(in.readBoolean());
 
+//            for (int i=0; i<2*("example of data streams".length()); i++)
+//                System.out.print(in.readBoolean());
             for (int i=0; i<"example of data streams".length(); i++)
-                System.out.print(in.readBoolean());
-//            for (int i=0; i<"example of data streams".length(); i++)
-//                System.out.print(in.readChar());
+                System.out.print(in.readChar());
             System.out.println();
             System.out.println(in.readInt());
             System.out.println(in.readDouble());
