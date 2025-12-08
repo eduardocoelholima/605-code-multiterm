@@ -4,7 +4,7 @@ import java.util.*;
 
 public class Thread_5b extends Thread    {
         private String info;
-        private Vector aVector = new Vector();
+        private static Vector aVector = new Vector();
 
         public Thread_5b (String info) {
                 this.info = info;
