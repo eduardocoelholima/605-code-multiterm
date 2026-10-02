@@ -16,9 +16,9 @@ public class HelloWorld {
     */
    public static void main( String[] args ) {
        System.out.println( "Hello, world!" );
-       String a = new String("a");
-       String b = a;
-       System.out.println(a==b);
+//       String a = new String("a");
+//       String b = a;
+//       System.out.println(a==b);
    }
 
 } // end class
