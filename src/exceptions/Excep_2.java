@@ -17,7 +17,7 @@ public class Excep_2 {
     public static void main  (String[] args) {
         for (int index = 1; index < 3; index++) {
             try {
-                sleep(100);
+//                sleep(100);
                 new Excep_2().f(index);
             } catch (NullPointerException e) {
                 e.printStackTrace();
